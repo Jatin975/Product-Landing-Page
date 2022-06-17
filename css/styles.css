@@ -80,7 +80,7 @@ div i{
 }
 
 /* pricing section  */
-.price-container{
+#pricing-container{
     padding: 50px 50px;
     display: flex;
     justify-content: center;
