@@ -1,0 +1,128 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 3%;
+}
+header img{
+    width: 350px;
+    margin-right: auto;
+}
+.navbar-links{
+    list-style: none;
+}
+.navbar-links li{
+    display: inline-block;
+    padding: 0px 20px;
+    padding-top: 20px;
+}
+.navbar-links li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-links li a:hover{
+    color: gray;
+}
+
+/* heading section  */
+#heading{
+    margin-top: 10px;
+}
+.slogan{
+    font-size: 25px;
+}
+#heading input{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width: 320px;
+}
+
+#heading button{
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* features section */
+
+.features-container{
+    margin: 80px 20%;
+}
+.feature-info{
+    margin-left: 100px;
+}
+.fire{
+    padding-left: 13px;
+}
+.features-container div{
+    text-align: left;
+}
+.feature-item{
+    padding-top: 40px;
+}
+.feature-item i{
+    padding-top: 15px;
+}
+div i{
+    color: orange;
+    float: left;
+    /* padding-top: 10px; */
+}
+
+/* pricing section  */
+.price-container{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.price-box{
+    width: 350px;
+    padding-bottom: 20px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.product-name{
+    font-size: 20px;
+    padding: 15px 0px;
+    background-color: gainsboro;
+}
+.price-box ul{
+    list-style: none;
+}
+
+/* footer */
+
+footer{
+    background-color:gainsboro;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+footer ul li{
+    display: inline-block;
+    padding: 10px 15px 0px 0px;
+}
+
+footer span{
+    text-align: right;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+
+}
